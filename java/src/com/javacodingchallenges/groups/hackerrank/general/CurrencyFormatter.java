@@ -6,7 +6,7 @@ public class CurrencyFormatter {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double payment = 12.2233; //scanner.nextDouble();
+        double payment = scanner.nextDouble();
         scanner.close();
 
         String formatted = String.format("%,.5f", payment);
