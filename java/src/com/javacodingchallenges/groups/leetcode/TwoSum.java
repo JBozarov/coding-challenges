@@ -7,7 +7,8 @@ public class TwoSum {
     public static void main(String[] args) {
         int[] ar = {2,7,11,15};
         int[] ar2 = {3,2,3};
-        System.out.println(Arrays.toString(twoSum(ar, 9)));
+        System.out.println(Arrays.toString(twoSum(ar, 9))); // [0,1]
+        System.out.println(Arrays.toString(twoSum(ar2, 6))); // [0,2]
     }
 
 
