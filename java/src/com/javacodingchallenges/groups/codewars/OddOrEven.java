@@ -1,3 +1,4 @@
+package com.javacodingchallenges.groups.codewars;
 
 import java.util.Arrays;
 
