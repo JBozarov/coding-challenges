@@ -9,5 +9,12 @@ public class Main {
         GreetingImpl greeting = new GreetingImpl();
         greeting.perform();
 
+        FunctionalInterfaceImpl functionalImterfaceImpl = new FunctionalInterfaceImpl();
+        functionalImterfaceImpl.consuterMethod(23);
+
+        // Lambda
+        Functionalnterface functionalInterface = (b) -> System.out.println("Functiona interface and param is: " + b);
+        functionalInterface.consuterMethod(2233);
+
     }
 }
